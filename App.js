@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './app/Header/Header'
-import Page from './app/Page/Page';
-import Footer from './app/Footer/Footer'
+import Header from './app/Header'
+import Page from './app/Page';
+import Footer from './app/Footer'
 
 const App = () => (
-  <div class="main">
-    <div class="container">
+  <div className="main">
+    <div className="container">
       <Header/>     
       <Page/>
       <Footer/>

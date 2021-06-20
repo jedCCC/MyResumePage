@@ -6,7 +6,7 @@ import BlogPage from './components/BlogPage';
 import ContactPage from './components/ContactPage';
 
 const Page = () => (
-  <div class="pages">
+  <div className="pages">
     <HomePage/>
     <ResumePage/>
     <ServicePage/>

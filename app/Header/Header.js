@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Flex from '../../components/Flex/Flex'
+import Flex from '../../components/Flex'
 import NavbarItem from './components/NavbarItem';
 
 const Highlight = styled.span`
