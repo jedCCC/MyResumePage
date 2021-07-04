@@ -4,7 +4,11 @@
     "start": "webpack server",
     "build": "webpack"
   },
-  "author": "",
+  "repository":{
+    "type": "git",
+    "url": "git+https://github.com/jedCCC/MyResumePage.git"
+  },
+  "author": "Jed Zhang",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
