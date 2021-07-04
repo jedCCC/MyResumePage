@@ -5,13 +5,18 @@ import ServicePage from './components/ServicePage';
 import BlogPage from './components/BlogPage';
 import ContactPage from './components/ContactPage';
 
-const Page = () => (
+
+
+// declarative code
+const Page = ({
+  page,
+})=>(
   <div className="pages">
-    <HomePage/>
-    <ResumePage/>
-    <ServicePage/>
-    <BlogPage/>
-    <ContactPage/>
+    {page === 'HOME' && (<HomePage/>)}
+    {page === 'RESUME'&&(<ResumePage/>)}
+    {page === 'SERVICES'&&(<ServicePage/>)}
+    {page === 'CONTACT'&&(<ContactPage/>)}
+    {page === 'BLOG'&&(<BlogPage/>)}
   </div>
 );
 
